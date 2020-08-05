@@ -23,7 +23,7 @@ class Transfer
       @status = "complete"
     else
       @status = "rejeceted"
-      puts "Transaction rejected. Please check your account balance."
+      return "Transaction rejected. Please check your account balance."
     end
   end
   
